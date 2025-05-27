@@ -7,7 +7,7 @@ export function Hero() {
       <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:px-8 lg:py-40">
         <div className="mx-auto max-w-2xl text-center">
           <h1 className="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            Find Your Perfect BJJ Gym in Vancouver
+            Find Your Perfect BJJ Gym
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Discover local BJJ gyms, book trial classes, and start your journey today. 
