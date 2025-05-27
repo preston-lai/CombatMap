@@ -20,20 +20,17 @@ export function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex md:items-center md:space-x-6">
-            <Link href="/gyms" className="text-sm font-medium hover:text-gray-900">
-              Find Gyms
-            </Link>
-            <Link href="/pricing" className="text-sm font-medium hover:text-gray-900">
+            <Button asChild>
+              <Link href="/gyms">Find Gyms</Link>
+            </Button>
+            {/* <Link href="/pricing" className="text-sm font-medium hover:text-gray-900">
               Pricing
             </Link>
             <Link href="/about" className="text-sm font-medium hover:text-gray-900">
               About
-            </Link>
+            </Link> */}
             <Button variant="outline" asChild>
               <Link href="/login">Log in</Link>
-            </Button>
-            <Button asChild>
-              <Link href="/signup">Get Started</Link>
             </Button>
           </div>
 
@@ -47,20 +44,17 @@ export function Navbar() {
               </SheetTrigger>
               <SheetContent>
                 <div className="flex flex-col space-y-4 mt-4">
-                  <Link href="/gyms" className="text-sm font-medium">
-                    Find Gyms
-                  </Link>
-                  <Link href="/pricing" className="text-sm font-medium">
+                  <Button asChild className="w-full">
+                    <Link href="/gyms">Find Gyms</Link>
+                  </Button>
+                  {/* <Link href="/pricing" className="text-sm font-medium">
                     Pricing
                   </Link>
                   <Link href="/about" className="text-sm font-medium">
                     About
-                  </Link>
+                  </Link> */}
                   <Button variant="outline" asChild className="w-full">
                     <Link href="/login">Log in</Link>
-                  </Button>
-                  <Button asChild className="w-full">
-                    <Link href="/signup">Get Started</Link>
                   </Button>
                 </div>
               </SheetContent>
